@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ZAPLink Class &amp; Interface connector</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <MSG_ID>ZAPLINK_OBJECT</MSG_ID>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>CMT</KEY>
+     <ENTRY>&quot;Auto commented by ZAPLINK_OBJECT connector and added as Explicit type group</ENTRY>
+     <LENGTH>80</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>EAL</KEY>
+     <ENTRY>APPLICATION_LOG can&apos;t be null</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>PRI</KEY>
+     <ENTRY>Private section</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>PRO</KEY>
+     <ENTRY>Protected section</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>PUB</KEY>
+     <ENTRY>Public section</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>BALLOG_SUBOBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Subobject</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>CHECK_CLASS_SECTIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Service : Regenerate Class sections if needed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>CHECK_CLAS_SECTIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Regenerate Class sections if needed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>CHECK_INTF_SECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Regenerate Interface section if needed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>CLEANUP_CLASS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Service : Clean up Class : Search for forward declaration</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>CLEANUP_TYPEUSAGE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Clean up Class for wrong typeusage</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>EXPORT_FROM_SAP_CLASS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Export Class from SAP System</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>EXPORT_FROM_SAP_INTERFACE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Export Interface from SAP System</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>GENERATE_CLASS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class generation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>GET_CLASSSOURCE_4SIGNATURE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Provide Global source of a class read for signature</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>GET_CLASS_GLOBALSOURCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Provide Global source of a class copy of CL_OO_SOURCE</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>GET_CLASS_SIGNATURE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Source code Signature of class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>GET_INCLUDES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get report includes names from class name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>GET_INTERFACE_GLOBALSOURCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Provide Global source of a interface</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>GET_INTERFACE_SIGNATURE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Source code Signature of interface</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>IMPORT_TO_SAP_CLASS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Import Class into SAP system</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>IMPORT_TO_SAP_INTERFACE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Import Interface into SAP system</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>LOAD_CLAS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Load Class from SAP System</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>OBJECT_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Object&apos;s data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>SEARCH_DEFERED_DECLARATION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Search for defered declaration (type pools, class, interface</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>TD_SOURCECODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Source Code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>TO_CLASS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>TO_INTERFACE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Interface data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>TS_BAPI_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>All Data for BAPI call of class creation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>TS_CLAS_ATTR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Root attributs for CLAS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>TS_INCLUDE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Indlude : Name &amp; Source code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>TT_TYPEUSAGES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Type usage : Type pool or class/interface</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>_CHECK_CLASS_SECTIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Internal Regenerate Class sections if needed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>_CLEANUP_CLASS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Clean up Class : Search for forward declaration</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>_UUID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>UUID for connector Object</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_OBJECT</CLSNAME>
+     <CMPNAME>_VER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Connector Version</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

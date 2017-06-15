@@ -1,0 +1,30 @@
+class ZAPLINK_OPT_BASE definition
+  public
+  create public .
+
+public section.
+
+  interfaces ZAPLINK_DATATYPES .
+
+  aliases BALLOG_OBJECT
+    for ZAPLINK_DATATYPES~BALLOG_OBJECT .
+  aliases TD_DEVCLASS
+    for ZAPLINK_DATATYPES~TD_DEVCLASS .
+  aliases TD_EXISTS
+    for ZAPLINK_DATATYPES~TD_EXISTS .
+  aliases TD_SUBSTITUTIONKIND
+    for ZAPLINK_DATATYPES~TD_SUBSTITUTIONKIND .
+  aliases TD_TRANSPORT_REQUEST
+    for ZAPLINK_DATATYPES~TD_TRANSPORT_REQUEST .
+  aliases TS_DIRECTORY
+    for ZAPLINK_DATATYPES~TS_DIRECTORY .
+
+  types TO_COMPONENT type ref to ZAPLINK_RAW_BASE .
+protected section.
+private section.
+ENDCLASS.
+
+
+
+CLASS ZAPLINK_OPT_BASE IMPLEMENTATION.
+ENDCLASS.

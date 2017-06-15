@@ -1,0 +1,515 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAPLINK_LIST</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ZapLink Components list</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <MSG_ID>ZAPLINK</MSG_ID>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>LST</KEY>
+     <ENTRY>Select objects</ENTRY>
+     <LENGTH>14</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NF1</KEY>
+     <ENTRY>Act.</ENTRY>
+     <LENGTH>4</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NF2</KEY>
+     <ENTRY>Type</ENTRY>
+     <LENGTH>4</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NF3</KEY>
+     <ENTRY>Type description</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NF4</KEY>
+     <ENTRY>Component name</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NF5</KEY>
+     <ENTRY>CNX</ENTRY>
+     <LENGTH>4</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NF6</KEY>
+     <ENTRY>Status</ENTRY>
+     <LENGTH>6</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NF7</KEY>
+     <ENTRY>Message</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NF8</KEY>
+     <ENTRY>Package</ENTRY>
+     <LENGTH>20</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NF9</KEY>
+     <ENTRY>SysID</ENTRY>
+     <LENGTH>5</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NFA</KEY>
+     <ENTRY>Checksum</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NFB</KEY>
+     <ENTRY>Code&apos;s Signature</ENTRY>
+     <LENGTH>32</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>ADD</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add component to list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>ADD_KEYS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add&amp;Create components from a key list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>ADD_LIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Merge new components from a list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>ALV_CONF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV configuration</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>CALLBACK_PROGRAM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Callback program for ALV Grid</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>CHANGE_SELECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Change selection list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>CLEAR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Clear component list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>CLONE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Clone (copy) component&apos;s list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>COMP_TO_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert component to ALV data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>CONV_TO_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create ALV table from collection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>DISPLAY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display list content</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>DISPLAY_PROGRESS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display SAPGUI progress indication while iterating</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>GET_COUNT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get number of component in list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>GET_KEYS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Return components as a key list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>GET_NEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Iterator Get next</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>HAS_ANY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Search components into all component list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>INIT_ITER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Initialize Iterator on all component of the list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>INIT_SEL_ITER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Initialize Iterator on selected component</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>IS_CONFIRMED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Selection has been confirmed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>IS_EMPTY</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Is the list empty</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>IS_INCLUDED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Search components into all component list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>IS_SELECTED</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Is this component selected ?</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>ITERATOR_TYPES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Types of Iterator</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>KEEP_COMMUN_LIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Keep only component in commun with an other list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>LIGHTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Lights icons</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>ORDER_KIND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Order kind</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>ORDER_KINDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>List of possible &quot;order kind&quot;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>O_CX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZAPlink ROOT Exception</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>O_EXCEPTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZAPlink Exception for Component</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>O_MYCX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZAPlink ROOT Exception for List</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>PF_STATUS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>PF status set Formname</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>PF_STATUS_NO_ACTIONS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>PF status set Formname</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>REFRESH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Refresh component&apos;s list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>REMOVE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Remove component from list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>REMOVE_LIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Remove component to list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>REVERSE_SELECTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Reverse the selection</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>SEARCH</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Search component into list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>SEARCH_INDEX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Search component into list &amp; get index</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>SELECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select the component</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>SELECTION_AS_LIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create new list with only selected components</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>SELECT_ALL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select all components from list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>SELECT_BY_ACTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select components from list depending on actions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>SELECT_DEFAULT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select default components from list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>SELECT_EXPORT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select components from list able to be exported</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>SELECT_IMPORT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select components from list able to be imported</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>SELECT_UNINSTALL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select components from list able to be uninstalled</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>TD_ITERATOR_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Iterator type : all, selected, ....</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>TO_COMPONENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Zap Link Component</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>TO_EXCEPTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZAPlink Exception for Component</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>TO_ME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZapLink Components list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>TO_ROOT_EXCEPTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZAPlink ROOT Exception</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>TS_ALLCOMPLIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>All Component list index line</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>TS_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV line</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>TS_ALV_CONF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV configuration</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>TS_COMPLIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Component list index</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>TT_ALLCOMPLIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>All Components (main and sub)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>TT_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ALV table</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>TT_COMPLIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Component list index</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>UNSELECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Unselect the component</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>UNSELECT_ALL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Unselect all components from list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>UPDATE_FROM_ALV</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Update selection from ALV</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>USER_COMMAND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>User comand Formname</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>_ADD_SUBCOMP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Add sub components</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>_ALLCOMP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>All Component list index</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>_INDEX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Component list index</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>_ITERATOR_COUNT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Index of Internal Tables</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>_ITERATOR_TABIX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Index of Internal Tables</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>_ITERATOR_TYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Iterator type : all, selected, ....</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_LIST</CLSNAME>
+     <CMPNAME>_SELECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Select the component ?</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

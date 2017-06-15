@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAPLINK_FILE_ZIP</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Zap Link Extended File Manager</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <MSG_ID>ZAPLINK</MSG_ID>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FILE_ZIP</CLSNAME>
+     <CMPNAME>FILENAME_IN_ZIP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Filename in ZIP file</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FILE_ZIP</CLSNAME>
+     <CMPNAME>GET_FILEKIND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>FileKind : Getter</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FILE_ZIP</CLSNAME>
+     <CMPNAME>SET_FILEKIND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>FileKind : Setter</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FILE_ZIP</CLSNAME>
+     <CMPNAME>TD_FILEKIND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>File Kind : Normal, Compressed</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FILE_ZIP</CLSNAME>
+     <CMPNAME>ZIP_FILE_EXTENSION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZIP file extention</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FILE_ZIP</CLSNAME>
+     <CMPNAME>_FILEKIND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>File Kind : Normal, Compressed</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

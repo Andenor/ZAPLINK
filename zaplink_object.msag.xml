@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZAPLINK_OBJECT</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message for Class ZAPLINK_OBJECT</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_OBJECT</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Fatal Error : Method &amp;1 (&amp;2) is implemented but without any definition</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_OBJECT</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Type-Pool &amp;1 has been added to &amp;2 as explicit</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_OBJECT</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>&amp;1 of &amp;2 has been regenerated because differences have been detected</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

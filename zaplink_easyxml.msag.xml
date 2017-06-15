@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZAPLINK_EASYXML</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Messages for Object ZAPLINK_EASYXML</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_EASYXML</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>System Error &amp;1 : on &amp;2 in &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_EASYXML</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Data type &amp;2 has been found on &amp;1 and cannot be handled !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_EASYXML</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Exception &amp;1 &quot;&amp;2&amp;3&quot; occurs in &amp;4 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_EASYXML</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Component &amp;1 found in XML tag &amp;2 do not exist on target data type &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_EASYXML</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Self field &apos;&amp;1&apos; of &amp;2 (&amp;3) must be simple data type, not &apos;&amp;4&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_EASYXML</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Successfull conversion XML to data.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_EASYXML</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Successfull conversion data to XML.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_EASYXML</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Node name of table line should be &apos;&amp;1&apos; but is &apos;&amp;2&apos; within &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_EASYXML</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Error converting node to RAW component object</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_EASYXML</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>XML Errors for component &amp;1 &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_EASYXML</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Error with &amp;1 &amp;2 : Confirm or abort this comp.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_EASYXML</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Full Exception text : &amp;1&amp;2&amp;3&amp;4</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_EASYXML</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Exception &amp;1&amp;2 occurs in &amp;3&amp;4 !</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

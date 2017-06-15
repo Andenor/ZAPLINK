@@ -1,0 +1,422 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZAPLINK</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message for exception class ZAPLINK_CX &amp; sons</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Processing (&amp;1) &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Controling existence of (&amp;1) &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Succesfully exported (&amp;1) &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Failed to export (&amp;1) &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Succesfully imported (&amp;1) &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Failed to import (&amp;1) &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Succesfully deleted (&amp;1) &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Failed to delete (&amp;1) &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Failed to import (&amp;1) &amp;2 : Dependencie (&amp;3) &amp;4 is missing</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>050</MSGNR>
+     <TEXT>There is no ZAPLink connector installed for object type &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>051</MSGNR>
+     <TEXT>Component (&amp;1) &apos;&amp;2&apos; already exists. Select it to overwrite</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>052</MSGNR>
+     <TEXT>Component (&amp;1) &apos;&amp;2&apos; does not exists.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>053</MSGNR>
+     <TEXT>Changes made on both (file/SAP) for Object &apos;&amp;2&apos; (&amp;1) =&gt; Manual ajustment</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>054</MSGNR>
+     <TEXT>No component was selected with this parameters</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>055</MSGNR>
+     <TEXT>General failure in Connector : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>056</MSGNR>
+     <TEXT>Unauthorized for object &apos;&amp;1&apos; (&amp;2)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>057</MSGNR>
+     <TEXT>Object &apos;&amp;1&apos; (&amp;2) can&apos;t be found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>058</MSGNR>
+     <TEXT>Object &apos;&amp;1&apos; (&amp;2) is allready locked</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>059</MSGNR>
+     <TEXT>Class &apos;&amp;1&apos; loaded twice.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>060</MSGNR>
+     <TEXT>Type &apos;&amp;1&apos; is not assigned to a ZAPLINK connector</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>061</MSGNR>
+     <TEXT>Connector(&amp;1)/type(&amp;2) can&apos;t be instancied due to exception &apos;&amp;3&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>062</MSGNR>
+     <TEXT>Class &apos;&amp;1&apos; for type &apos;&amp;2&apos; is not a valid connector. Check class &apos;&amp;3&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>063</MSGNR>
+     <TEXT>Invalid XML : Root node should be &apos;ZL_OBJECT&apos; and not &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>064</MSGNR>
+     <TEXT>Version &apos;&amp;1&apos; is not (or no longer) supported by the connector &apos;&amp;3&apos;(&amp;2).</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>065</MSGNR>
+     <TEXT>Type &apos;&amp;1&apos; is not supported by this connector &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>066</MSGNR>
+     <TEXT>Class &apos;&amp;1&apos; and &apos;&amp;2&apos; have the same UUID : &apos;&amp;3&apos;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>067</MSGNR>
+     <TEXT>XML Error on component (&amp;1) &amp;2 =&gt; User abort</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>068</MSGNR>
+     <TEXT>Can&apos;t set Exception to the provided object type : &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>069</MSGNR>
+     <TEXT>Can&apos;t set Message Collector to the provided object type : &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>070</MSGNR>
+     <TEXT>Can&apos;t set sub-components list to the provided object type : &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>071</MSGNR>
+     <TEXT>Can&apos;t import on this mandant : Either productive or locked for changes</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>100</MSGNR>
+     <TEXT>at &amp;2(&amp;1) line &amp;3</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>101</MSGNR>
+     <TEXT>Exception &amp;1 &quot;&amp;2&quot; occurs in &amp;3 !</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>102</MSGNR>
+     <TEXT>at &amp;1 line &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>103</MSGNR>
+     <TEXT>See transaction SLG1 with : &amp;1 / &amp;2 (&amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>104</MSGNR>
+     <TEXT>Exception &apos;&amp;1&apos; has occured</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>105</MSGNR>
+     <TEXT>Framework General failure : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>106</MSGNR>
+     <TEXT>Component General failure : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>107</MSGNR>
+     <TEXT>Container General failure : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>108</MSGNR>
+     <TEXT>File General failure : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>109</MSGNR>
+     <TEXT>GUI General failure : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>110</MSGNR>
+     <TEXT>Component list General failure : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>111</MSGNR>
+     <TEXT>Options General failure : &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>150</MSGNR>
+     <TEXT>Failed to add component (&amp;1) &apos;&amp;2&apos;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>151</MSGNR>
+     <TEXT>Failed to add components list. Due to exception &apos;&amp;CX_NAME&amp;&apos;.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>152</MSGNR>
+     <TEXT>Circular dependencies in container</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>200</MSGNR>
+     <TEXT>Openning file &apos;&amp;1&apos; on local machine</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>201</MSGNR>
+     <TEXT>Openning file &apos;&amp;1&apos; on ABAP Server</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>202</MSGNR>
+     <TEXT>Exception &apos;&amp;1&apos; while searching in &apos;&amp;2&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>203</MSGNR>
+     <TEXT>Exception &apos;&amp;1&apos; while saving file &apos;&amp;2&apos; (&amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>204</MSGNR>
+     <TEXT>Filename is mandatory. Please provide a valid filename</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>205</MSGNR>
+     <TEXT>Exception &apos;&amp;1&apos; while loading file &apos;&amp;2&apos; (&amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>206</MSGNR>
+     <TEXT>FileType &apos;&amp;1&apos; is invalid. Type can only be &apos;S&apos; OR &apos;L&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>207</MSGNR>
+     <TEXT>Filename &apos;&amp;1&apos; is invalid. Please provide a valid filename for filetype &amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>208</MSGNR>
+     <TEXT>FileKind &apos;&amp;1&apos; is invalid. Type can only be &apos; &apos; OR &apos;Z&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>209</MSGNR>
+     <TEXT>Dialog canceled by user</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>210</MSGNR>
+     <TEXT>Exception &apos;&amp;1&apos; while deleting file &apos;&amp;2&apos; (&amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>250</MSGNR>
+     <TEXT>Object name is mandatory. Please provide a valid object name</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>251</MSGNR>
+     <TEXT>Object type is mandatory. Please provide a valid object type</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>252</MSGNR>
+     <TEXT>Container name is mandatory. Please provide a container name</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>253</MSGNR>
+     <TEXT>Dialog canceled by user</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>254</MSGNR>
+     <TEXT>The substitution kind &apos;&amp;1&apos; is invalid for options &quot;&amp;2&quot;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>255</MSGNR>
+     <TEXT>Option for &quot;&amp;2&quot; : a &amp;2 is required for substitution kind &apos;&amp;1&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>300</MSGNR>
+     <TEXT>Component (&amp;1) &apos;&amp;2&apos; already in the collection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>301</MSGNR>
+     <TEXT>The selection action &amp;1 is invalid.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>302</MSGNR>
+     <TEXT>GET_NEXT has been called without initialize a iterator.</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>303</MSGNR>
+     <TEXT>Component (&amp;1) &apos;&amp;2&apos; not found in the collection</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK</ARBGB>
+     <MSGNR>500</MSGNR>
+     <TEXT>Processing Dynpro #&amp;2 (&amp;1)</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

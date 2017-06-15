@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZAPLINK_PROGRAM</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message class for connector : ZAPLINK_PROGRAM</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PROGRAM</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Error &amp;1 on FORM import_var_selc : Screen part for &amp;2(&amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PROGRAM</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Error &amp;1 on FORM import_var_selc : Data part for &amp;2(&amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PROGRAM</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>Error &amp;1,&amp;2 on FORM %_import_vari_clnt for &amp;3(&amp;4)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PROGRAM</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Can&apos;t insert variant &apos;&amp;2&apos; for program &apos;&amp;1&apos;, because don&apos;t exist as active</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

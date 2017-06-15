@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAPLINK_CX</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ZAPlink Framework : Root exception class</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <VARCL>X</VARCL>
+    <UNICODE>X</UNICODE>
+    <RSTAT>S</RSTAT>
+    <MSG_ID>ZAPLINK</MSG_ID>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>CONV_PROGNAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert Program Name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>CREATE_FROM_APPLICATION_LOG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create Exception from application log</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>CREATE_FROM_METHOD_CX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create Exception from Method Exception (non class exception)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>CREATE_FROM_MF_CX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create Exception from Module Function Exception</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>CREATE_FROM_SYMSG</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create Exception from SY Msg message</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>EXT_ID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: External ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>GET_SOURCE_POSITION_AS_STRING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns Position in Source Text as string</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>IS_EXCEPTION_TEXT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Do the exception has the text ID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>LOAD_SYSTEMSTACK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Load systemstack into exception</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>MESSAGES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message Collector: Standard Implementation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>OBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Object Name (Application Code)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>O_CX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ROOT Exception</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>O_MSG_COLL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Message Collector: Standard Implementation</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>O_MYCX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZAPlink ROOT Exception</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>SOURCE_POSITION_AS_STRING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns Position in Source as string</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>STACK_POSITION_AS_STRING</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Returns Stack Position in Source as string</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>SUBOBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Subobject</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>SYSTEMSTACK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>System Stack of the exception call</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>SYSTEMSTACK_UP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Clear last entry from systemstack of the exception</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>TD_EXCEPTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Exception ID : Message or GUID</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>TO_EXCEPTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZAPlink ROOT Exception</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>TO_ROOT_EXCEPTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Abstract Superclass for All Global Exceptions</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>TS_SOURCE_DEF</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Source definition (type &amp; name)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>TS_SOURCE_POS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Source position</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>UPDATE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>M#j parameters</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>WRITE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Write exception as text</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>_CREATE_CX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Create Exception from class name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX</CLSNAME>
+     <CMPNAME>_CX_LIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Exceptions list</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

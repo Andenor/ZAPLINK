@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>Message for Class ZAPLINK_PACKAGE</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>Root node &apos;&amp;1&apos; not found</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>The actual connector ver. (&amp;1) and the file ver. (&amp;2) are not compatible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>The actual connector ver. (&amp;1) and the file ver. (&amp;2) are compatible</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Processing Package &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Succesfully deleted Package &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Can&apos;t delete Package &amp;1 =&gt; switching to update</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Parsing Package &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Parsing Interface &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Controling existence of Package &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Controling existence of Interface &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Succesfully deleted Interface &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Can&apos;t delete Interface &amp;1 =&gt; switching to update</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>012</MSGNR>
+     <TEXT>Fatal Errors occurs, check ba log (SLG1) : &apos;&amp;1&apos; &apos;&amp;2&apos; &apos;&amp;3&apos;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>013</MSGNR>
+     <TEXT>Processing Interface &amp;1</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>014</MSGNR>
+     <TEXT>Processing Interface &amp;1 attributs (ACLs, Elements, ...)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>015</MSGNR>
+     <TEXT>Processing Package &amp;1 attributs</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>016</MSGNR>
+     <TEXT>System Error : Object &apos;&amp;3&apos; is not bound in method &amp;1-&gt;&amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>017</MSGNR>
+     <TEXT>System Error : Return code &amp;4 when calling method &amp;3 in method &amp;1-&gt;&amp;2</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>018</MSGNR>
+     <TEXT>Delete TADIR entry of &amp;1 &amp;2 &amp;3 (not existing)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>019</MSGNR>
+     <TEXT>TADIR entry : Source System (&amp;1) Author (&amp;2) GenFlag (&amp;3)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>ZAPLINK_PACKAGE</ARBGB>
+     <MSGNR>020</MSGNR>
+     <TEXT>Object TADIR entry : &amp;1 &amp;2 &amp;3</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

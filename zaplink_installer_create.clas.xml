@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAPLINK_INSTALLER_CREATE</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ZAPLink DevTools : Installer Create</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>001</KEY>
+     <ENTRY>Container&apos;s containt :</ENTRY>
+     <LENGTH>40</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INSTALLER_CREATE</CLSNAME>
+     <CMPNAME>CREATE_INSTALLER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Generate Installer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INSTALLER_CREATE</CLSNAME>
+     <CMPNAME>DISPLAY_CONTAINER_CONTENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display container&apos;s content</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INSTALLER_CREATE</CLSNAME>
+     <CMPNAME>DISPLAY_OBJECT_ORDER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Display object order in Installer</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INSTALLER_CREATE</CLSNAME>
+     <CMPNAME>MASTER_SOURCECODE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Master source code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INSTALLER_CREATE</CLSNAME>
+     <CMPNAME>MASTER_UP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>MAster source code in upcase</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INSTALLER_CREATE</CLSNAME>
+     <CMPNAME>O_GENERATOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZAPLink : Stand Alone Generator (local class&amp;intf)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INSTALLER_CREATE</CLSNAME>
+     <CMPNAME>O_OBJECTS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZapLink Components list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INSTALLER_CREATE</CLSNAME>
+     <CMPNAME>SET_PARAMETERS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Set Install cretaer&apos;s parameters</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

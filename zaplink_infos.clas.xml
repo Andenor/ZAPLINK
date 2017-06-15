@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ZAPLink Informations</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSFINAL>X</CLSFINAL>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>NON</KEY>
+     <ENTRY>No</ENTRY>
+     <LENGTH>5</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>OUI</KEY>
+     <ENTRY>Yes</ENTRY>
+     <LENGTH>5</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>CNX_PACKAGES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Connectors packages</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>GET_SAP_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get SAP Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>GET_ZL_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get ZAPLink Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>O_CX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZAPlink Framework : Root exception class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>O_MYCX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZAPlink Framework : Root exception class</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>TD_CLASSNAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Class/interface name</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>TI_CODE_SIGNATURE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZAPLink Connector Extension : Source Code Signature</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>TO_COMPONENT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Zap Link Component</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>TO_CONNECTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZAPLink Connector interface</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>TO_GENERATOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZAPLink : Stand Alone Generator (local class&amp;intf)</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>TO_LIST</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ZAPLink Components list</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>TO_RAW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>RAW component with data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>TS_COMP_DETAIL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Components detailed informations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>TS_STATUS_INFO</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Status Informations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>TT_COMPS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Components informations</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_INFOS</CLSNAME>
+     <CMPNAME>TT_HOT_PACK</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Hot Packages informations</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

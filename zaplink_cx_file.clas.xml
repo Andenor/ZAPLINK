@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAPLINK_CX_FILE</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>ZAPlink Exception for Files</DESCRIPT>
+    <CATEGORY>40</CATEGORY>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <VARCL>X</VARCL>
+    <UNICODE>X</UNICODE>
+    <RSTAT>S</RSTAT>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX_FILE</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX_FILE</CLSNAME>
+     <CMPNAME>FILEKIND</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>FileKind</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX_FILE</CLSNAME>
+     <CMPNAME>FILENAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Filename</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX_FILE</CLSNAME>
+     <CMPNAME>FILETYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Filetype : Local or Server</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX_FILE</CLSNAME>
+     <CMPNAME>T_FILENAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Filename</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_CX_FILE</CLSNAME>
+     <CMPNAME>T_FILETYPE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Filetype : Local or Server</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

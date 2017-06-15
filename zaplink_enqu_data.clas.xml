@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAPLINK_ENQU_DATA</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Lock object (SE11) Datas</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_ENQU_DATA</CLSNAME>
+     <CMPNAME>A0_MAINDATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Line Type for Table with Package Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_ENQU_DATA</CLSNAME>
+     <CMPNAME>ANONYMIZE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Anonymized component data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_ENQU_DATA</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_ENQU_DATA</CLSNAME>
+     <CMPNAME>DOC_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Documentation IDS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_ENQU_DATA</CLSNAME>
+     <CMPNAME>FROM_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert FM Data to object attributes</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_ENQU_DATA</CLSNAME>
+     <CMPNAME>R_DOC_IDS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Documentation IDS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_ENQU_DATA</CLSNAME>
+     <CMPNAME>TO_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Convert object attributes to FM Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_ENQU_DATA</CLSNAME>
+     <CMPNAME>TS_FM_DATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function Module Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_ENQU_DATA</CLSNAME>
+     <CMPNAME>TS_MAINDATA</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>General Data</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_ENQU_DATA</CLSNAME>
+     <CMPNAME>UNANONYMIZE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>UnAnonymized component data</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

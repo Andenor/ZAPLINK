@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+    <VERSION>1</VERSION>
+    <LANGU>E</LANGU>
+    <DESCRIPT>Conneector for Function Group</DESCRIPT>
+    <EXPOSURE>2</EXPOSURE>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+    <MSG_ID>ZAPLINK_FUGR</MSG_ID>
+   </VSEOCLASS>
+   <TPOOL>
+    <item>
+     <ID>I</ID>
+     <KEY>D00</KEY>
+     <ENTRY>Confirm module function deletion</ENTRY>
+     <LENGTH>50</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>HNO</KEY>
+     <ENTRY>Function is not deleted and process to next existing function. Function group will be created without this function.</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>HYE</KEY>
+     <ENTRY>Function is deleted. Function group will be created with this function.</ENTRY>
+     <LENGTH>132</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>NO_</KEY>
+     <ENTRY>No</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+    <item>
+     <ID>I</ID>
+     <KEY>YES</KEY>
+     <ENTRY>Yes</ENTRY>
+     <LENGTH>15</LENGTH>
+    </item>
+   </TPOOL>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>BALLOG_SUBOBJECT</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Application Log: Subobject</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>CALC_FUNCTION_SIGNATURE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Determine Source code Signature of a function</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>CLASS_CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CLASS_CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>CONSTRUCTOR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>CONSTRUCTOR</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>C_MAINPROG_PREFIX</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function group Main program prefix</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>DEL_FUNCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Delete function from SAP System is required</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>GET_ALL_INCLUDES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>In subtitution to MF &apos;RS_GET_ALL_INCLUDES&apos;</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>GET_FUNCTION_SIGNATURE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Source code Signature of a function</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>GET_GROUP_SIGNATURE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get Source code Signature of a function group</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>GET_MAINPROGRAM</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Get main program from Area</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>PREV_FUNC</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Previous function</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>READ_FUNCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Read function from SAP System</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>SUPPORTEDTYPES</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Connector supported types</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>TD_FUNCTIONGROUP_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Function group, to which the function module belongs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>TD_FUNCTION_NAME</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Name of Function Module</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>TO_FUNCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Commun Data for Class &amp; Interface</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>TO_GROUP</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Data for Function group</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>TS_PROG_ATTR</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Program Attributs</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>TS_SOURCE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Source code</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>TT_RS38L_INCL</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>standard table of rs38l_incl</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>TT_TEXTPOOLS</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Table of textppool</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>T_RAW</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>ABAP Source</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>WRITE_FUNCTION</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Write function to SAP System</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>WRITE_INCLUDE</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Write include to SAP System</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>_UUID</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>UUID for connector Program</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZAPLINK_FUNCTION_GROUP</CLSNAME>
+     <CMPNAME>_VER</CMPNAME>
+     <LANGU>E</LANGU>
+     <DESCRIPT>Connector Version</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
